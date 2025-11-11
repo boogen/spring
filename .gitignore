@@ -1,0 +1,75 @@
+# --- Build outputs ---
+/build/
+/out/
+/bin/
+/target/
+/classes/
+
+# --- Gradle ---
+.gradle/
+/**/.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+**/gradle-wrapper.properties
+**/gradle-wrapper.jar
+
+# --- IDEs ---
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# --- Spring Boot runtime ---
+/**/logs/
+/**/tmp/
+/**/application.properties.local
+/**/application.yml.local
+
+# --- Kotlin/Java ---
+*.class
+*.jar
+*.war
+*.ear
+*.kt~
+*.java~
+
+# --- Test results ---
+/**/test-results/
+/**/reports/
+/**/jacoco/
+
+# --- Environment files ---
+.env
+.env.*
+*.local
+
+# --- Misc ---
+/**/.idea_modules/
+/**/.settings/
+/**/.classpath/
+/**/.project
+
+# --- macOS ---
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
